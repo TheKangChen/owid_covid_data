@@ -111,7 +111,7 @@ WHERE d.continent is not null
 ORDER BY 2, 3;
 
 
--- percent population vs vaccinations view(Views)
+-- percent population vs vaccinations view
 DROP VIEW if exists percent_population_vaccinated_view;
 CREATE VIEW percent_population_vaccinated_view AS
 SELECT d.continent,
